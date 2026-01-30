@@ -1,0 +1,45 @@
+{
+  "name": "genai-js-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js",
+    "dev": "ts-node --esm ./src/app.ts"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^1.0.0",
+    "@langchain/aws": "^1.0.0",
+    "@langchain/community": "^1.0.0",
+    "@langchain/core": "^1.0.0",
+    "@langchain/google-genai": "^2.0.0",
+    "@langchain/pinecone": "^1.0.0",
+    "@pinecone-database/pinecone": "^5.0.2",
+    "cheerio": "^1.1.2",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^1.0.3",
+    "tsx": "^4.21.0"
+  }
+}
